@@ -39,8 +39,13 @@
 
 @font-face {
     font-family: "Iosevka";
-    src: local("Iosevka"),
-         url(fonts/iosevka-term-medium.woff2) format('woff2');
+    src: url(fonts/Iosevka-FakeBold.woff2) format('woff2');
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Iosevka";
+    src: url(fonts/Iosevka-FakeBold.woff2) format('woff2');
+    font-weight: bold;
 }
 
 @font-face {
